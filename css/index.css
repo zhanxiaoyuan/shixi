@@ -1,0 +1,557 @@
+.swiper-container {
+    width: 100vw;
+    height: 100vh;
+}
+.arrow{
+    width: 0.68rem;height: 0.68rem;
+    background: url("../images/slide1/arrow.png") no-repeat;
+    background-size: contain;
+    position: fixed;
+    bottom: 0.1rem;
+    left: 0;right: 0;
+    margin: auto;z-index: 100;
+}
+.one{
+    width:100%;height:100%;
+    background: url("../images/slide1/bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.zhuangshi{
+    width:1.66rem;height:1.2rem;
+    background: url("../images/zhuangshi.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:.6rem;top:.75rem;
+}
+.fav{
+     width:1.53rem;height:1.5rem;
+     background: url("../images/slide1/fav.png") no-repeat;
+     background-size: contain;
+     position: absolute;
+     right:.6rem;top:.5rem;
+ }
+.block{
+    width:5.57rem;height:5.7rem;
+    background: url("../images/slide1/block.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.quanquan{
+    width:9.77rem;height:9.77rem;
+    background: url("../images/slide1/quanquan.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.shoes{
+    width:6.94rem;height:5.73rem;
+    background: url("../images/slide1/shoes.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.title1{
+    width: 2.81rem;height: 1.55rem;
+    background: url("../images/slide1/title.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: .6rem;
+    top: 70%;
+}
+.gongyi{
+    width: 1.32rem;height: 0.65rem;
+    background: url("../images/slide1/gongyi.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: .6rem;
+    top: 85%;
+}
+.price1{
+    width: 1.88rem;height: 0.71rem;
+    background: url("../images/slide1/price.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: .6rem;
+    top: 85%;
+}
+/*第2屏幕开始*/
+.two{
+    width:100%;height:100%;
+    background: url("../images/slide2/bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.shoes-two{
+    width: 6.83rem;height: 4.82rem;
+    background: url("../images/slide2/shoes.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 24%;
+}
+.zhuangshi-2{
+    width:1.66rem;height:1.2rem;
+    background: url("../images/zhuangshi2.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:.6rem;top:.75rem;
+}
+.panel{
+    width: 6.9rem; height: 4.7rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0.3rem;
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+.red{
+    width: 0.5rem; height: 0.08rem;
+    position: absolute;
+    top: 0.9rem;
+    left: 0.3rem;
+    background-color: red;
+    border-radius: 0.1rem;
+}
+.text1{
+    font-size: 0.4rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.3rem;
+    color: #828282;
+    margin-top: 0.47rem;
+}
+.text2{
+    font-size: .5rem;
+    position: absolute;
+    top: 1.7rem;
+    left: 0.3rem;
+    color: #434343;
+    margin-top: 0.1rem;
+}
+.text3{
+    font-size: .18rem;
+    position: absolute;
+    top: 2.3rem;
+    left: 0.3rem;
+    margin-top: 0.5rem;
+    color: #828282;
+}
+/*第3屏幕开始*/
+.three{
+    width:100%;height:100%;
+    background-image: linear-gradient(-37deg, #f2f2f2 0%, #fcfcfc 100%);
+    background-size: 100% 100%;
+}
+.shoes-three{
+    width: 6.85rem;height: 10.55rem;
+    background: url("../images/slide3/shoes.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.zhuangshi-3{
+    width:1.66rem;height:1.2rem;
+    background: url("../images/zhuangshi.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left:.6rem;top:.75rem;
+}
+.red3{
+    width: 0.5rem; height: 0.08rem;
+    position: absolute;
+    top: 3.0rem;
+    left: 0.6rem;
+    background-color: red;
+    border-radius: 0.1rem;
+}
+.text3-1{
+    font-size: .5rem;
+    font-weight: bold;
+    color: #434343;
+    position: absolute;
+    left: 0.6rem;
+    top: 3.48rem;
+}
+.text3-2{
+    position: absolute;
+    left: 0.6rem;
+    top: 4.5rem;
+    font-weight: normal;
+    font-size: .4rem;
+    line-height: .48rem;
+    color: #828282;
+}
+/*第4个屏幕开始*/
+
+.bg{
+    position: absolute;
+    height: 50%;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(0deg, #fc666e 0%, #f9461f 100%);
+}
+
+.shoes-four{
+    width: 6.31rem;height: 3.1rem;
+    background: url("../images/slide4/shoes.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: -2.42rem;
+}
+.up{
+    width: 6.76rem;height: 5.54rem;
+    position: absolute;
+    background: url("../images/slide4/up.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 999;
+    top: 1.4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.red4{
+    width: 0.5rem; height: 0.08rem;
+    background-color: red;
+    border-radius: 0.1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 8.67rem;
+}
+.text4-1{
+    font-size: 0.5rem;
+    color: #434343;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 9.19rem;
+}
+.text4-2{
+    font-size: 0.4rem;
+    color: #828282;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 10.23rem;
+}
+.zhuangshi-4{
+    width:1.66rem;height:1.2rem;
+    background: url("../images/zhuangshi2.png") no-repeat;
+    background-size: contain;
+    z-index: 999;
+    position: absolute;
+    left:.6rem;top:.75rem;
+}
+/*第5个屏幕开始*/
+.five{
+    background-color: #f2f2f2;
+}
+.zhuangshi-5{
+    width:1.66rem;height:1.2rem;
+    background: url("../images/zhuangshi.png") no-repeat;
+    background-size: contain;
+    z-index: 999;
+    position: absolute;
+    left:.6rem;top:.75rem;
+}
+.red5{
+    width: 0.5rem; height: 0.08rem;
+    background-color: red;
+    border-radius: 0.1rem;
+    position: absolute;
+    right: 1rem;
+    margin: auto;
+    top: 8.2rem;
+}
+.shoes-five{
+    width: 7.6rem;height: 6.5rem;
+    background: url("../images/slide5/shoes.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1.73rem;
+}
+.text5-1{
+    font-size: 0.5rem;
+    color: #434343;
+    position: absolute;
+    top: 8.61rem;
+    right: 0.6rem;
+}
+.text5-2{
+    font-size: 0.4rem;
+    color: #828282;
+    position: absolute;
+    top: 9.65rem;
+    text-align: right;
+    right: 0.6rem;
+}
+/*第六屏开始*/
+.six{
+    background-color: #f2f2f2;
+}
+.zhuangshi-6{
+    width:1.66rem;height:1.2rem;
+    background: url("../images/zhuangshi.png") no-repeat;
+    background-size: contain;
+    z-index: 999;
+    position: absolute;
+    left:.6rem;top:.75rem;
+}
+.red6{
+    width: 0.5rem; height: 0.08rem;
+    background-color: red;
+    border-radius: 0.1rem;
+    position: absolute;
+    right: 0.6rem;
+    margin: auto;
+    top: 0.6rem;
+}
+.text6-1{
+    font-size: 0.5rem;
+    color: #434343;
+    position: absolute;
+    top: 1rem;
+    right: 0.6rem;
+}
+.shoes-box{
+    text-align: center;
+    margin-top: 2.79rem;
+}
+.shoes-six{
+    display: inline-block;
+    width: 6.9rem;height: 3.5rem;
+    margin-bottom: .27rem;
+}
+.shoes-six video{
+    width: 100%;height: 100%;
+}
+.shoes-six2{
+    width: 6.9rem;height: 4.56rem;
+    background: url("../images/slide6/shoes2.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: .25rem;
+    margin-top: 0.5rem;
+}
+
+
+/*第七屏开始*/
+.seven {width: 100%;
+    height: 100%;
+    background:#f2f2f2;
+
+}
+
+.zhuangshi-seven {
+    width:1.66rem;
+    height:1.2rem;
+    background: url("../images/zhuangshi.png  ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    top:.6rem;left:.6rem;
+
+}
+
+.orange-seven {
+    width:.5rem;height:.1rem;
+    position: absolute;
+    right:0.4rem;top:0.5rem;
+    background:#f94620;
+    border-radius:0.1rem;
+
+}
+
+.text-seven {
+    font-size:0.5rem;
+    font-family:"微软雅黑";
+    color:#656060;
+    position: absolute;
+    right:0.4rem;top:1rem;
+
+}
+
+
+.index {
+    width:6.90rem;
+    height:4.09rem;
+    background: url("../images/slide7/index.png ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    bottom:0.6rem;left:0;right:0;margin:auto;
+
+}
+
+.options {
+    width:6.30rem;
+    height:3.14rem;
+    background: url("../images/slide7/options.png") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    bottom:6.5rem;left:0;right:0;margin:auto;
+
+}
+
+
+/*第八屏开始*/
+.eight   {
+    width: 100%;
+    height: 100%;
+    background: url("../images/slide8/banner1.png") no-repeat ;
+    background-size: contain ;
+}
+
+.zhuangshi-eight {
+    width:1.66rem;
+    height:1.2rem;
+    background: url("../images/zhuangshi.png  ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    top:.6rem;left:.6rem;
+
+}
+
+.content  {
+    width:100%;
+    height:50%;
+    background:white ;
+    border-radius:0.1rem;
+
+    position: absolute;
+
+
+}
+
+.content  {
+    width:100%;
+    height:50%;
+    background:#ffffff ;
+    border-radius:.1rem;
+    position: absolute;
+    bottom:0;left:0;right:0;margin:auto;
+
+}
+
+.orange-eight {
+    width:.5rem;height:.1rem;
+    position: absolute;
+    left:0.4rem;top:0.6rem;
+    background:#f94620;
+    border-radius:0.1rem;
+
+}
+
+.brand {
+    width:240rem;
+    height:1rem;
+    background: url("../images/slide8/brand.jpg ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    left:0.4rem;top:1.2rem;
+
+}
+
+.price-8 {
+    width: 1.88rem;
+    height: .71rem;
+    background: url("../images/slide8/price.png ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    right:.4rem;top:1.5rem;
+
+}
+.select {
+    width:90%;
+    height:15%;
+    background: url("../images/slide8/select.jpg  ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    bottom:30%;
+    left:0;right:0;margin:auto;
+
+}
+
+.fav-8 {
+    width: .8rem;
+    height: .8rem;
+    background: url("../images/slide8/fav.png ") no-repeat ;
+    background-size: contain ;
+    position: absolute;
+    left:0.6rem;bottom:0.2rem;
+
+}
+
+.orange-8
+{
+    width:3rem;height:0.8rem;
+    position: absolute;
+    left: 4.4rem;
+    bottom:0.2rem;
+    background:#f94620;
+    border-radius:0.5rem;
+    z-index:100;
+}
+
+.text-8 {
+    font-size:0.4rem;
+    font-family:"微软雅黑";
+    color:#ffffff ;
+    text-align:center;
+    height:43px;
+    line-height:43px;
+
+
+
+}
+.title8{
+    width: 2.81rem;height: 1.55rem;
+    background: url("../images/slide1/title.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: .6rem;
+    top: 50%;
+}
+.price8{
+    width: 1.88rem;height: 0.71rem;
+    background: url("../images/slide1/price.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: .6rem;
+    top: 50%;
+}
+.size-box{
+    padding: 0 0.6rem;
+    color: #434343;
+    position: absolute;
+    left: 0.6rem;
+    top: 10%;
+}
+.chima{
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+}
+.swiper-container-size .swiper-slide{
+    text-align: center;
+    font-size: 0.3rem;
+    margin: 0.3rem 0;
+}
